@@ -7,3 +7,8 @@ model-vidwer {
     width: 100%;
     height: 40rem;
 }
+
+.HotspotAnnotation {
+    color: blue;
+    border: none;
+}
