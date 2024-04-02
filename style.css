@@ -14,7 +14,7 @@ h2 {
     text-decoration: none;
     color: #ff3e17;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 p {
@@ -37,7 +37,8 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999; 
+    z-index: 999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /*-- Hero--*/
@@ -51,6 +52,19 @@ p {
     margin: 2em;
 }
 
+/*-- Title --*/
+
+.title {
+    text-align: center;
+    margin: 3em;
+}
+
+#title {
+    font-weight: 200;
+    font-size: 32px;
+}
+
+/*-- Chairs--*/
 
 .chairs {
     display: grid;
@@ -64,8 +78,12 @@ model-viewer {
     height: 30rem;
 }
 
-.HotspotAnnotation {
-    color: #000000;
+.Hotspot {
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #00000074;
+    padding: 6px 8px 6px 8px;
+    border-radius: 8px;
     border: none;
 }
 
