@@ -11,29 +11,53 @@
     ></script>
   </head>
   <body>
+    <header>
+      <div class="logo">
+        <h1>Humber Furniture</h1>
+      </div>
+
+      <img src="/hero-image.png" alt="Hero Image">
+    </header>
+
     <h1>Industrial Design Chairs</h1>
+
     <div class="chairs">
-      <model-viewer src="./models/Picard.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="0.95">
-        <button class="Hotspot" slot="hotspot-1" data-position="0.09442188997896284m 0.6907644443458515m 0.43385109886062967m" data-normal="0.2823966561673349m 0.947895499666019m 0.14746609881059491m" data-visibility-attribute="visible">
-            <div class="HotspotAnnotation">Orange Canvas</div>
-        </button><button class="Hotspot" slot="hotspot-3" data-position="-0.12027855591825387m 0.16509669352062062m 0.47914790808991103m" data-normal="-0.7871495395416178m 0.026456614807669324m 0.616194490345652m" data-visibility-attribute="visible">
-            <div class="HotspotAnnotation">Pine Wood</div>
-        </button>
-      </model-viewer>
 
-      <model-viewer src="./models/Oba.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
-        <button class="Hotspot" slot="hotspot-1" data-position="0.11002678703938631m 1.0676661567387282m -0.2723010242890014m" data-normal="-0.45318125607633414m 0.2535471251975114m 0.8545996749619987m" data-visibility-attribute="visible">
-            <div class="HotspotAnnotation">Yellow Solid Cotton</div>
-        </button>
-      </model-viewer>
+      <div class="section" id="Picard">
+        <model-viewer src="./models/Picard.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="0.95">
+          <button class="Hotspot" slot="hotspot-1" data-position="0.09442188997896284m 0.6907644443458515m 0.43385109886062967m" data-normal="0.2823966561673349m 0.947895499666019m 0.14746609881059491m" data-visibility-attribute="visible">
+              <div class="HotspotAnnotation">Orange Canvas</div>
+          </button><button class="Hotspot" slot="hotspot-3" data-position="-0.12027855591825387m 0.16509669352062062m 0.47914790808991103m" data-normal="-0.7871495395416178m 0.026456614807669324m 0.616194490345652m" data-visibility-attribute="visible">
+              <div class="HotspotAnnotation">Pine Wood</div>
+          </button>
+        </model-viewer>
+        <h2>Picard</h2>
+        <p>A vibrant chair perfect for modern interiors.</p>
+      </div>
 
-      <model-viewer src="./models/Sitzplatz.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
-        <button class="Hotspot" slot="hotspot-1" data-position="-0.2924628883586328m 0.4292900728072091m 0.3438406938416989m" data-normal="0.3705388063879073m -0.04882149702188987m 0.9275329936930365m" data-visibility-attribute="visible">
-            <div class="HotspotAnnotation">Oak Wood</div>
-        </button><button class="Hotspot" slot="hotspot-2" data-position="0.04074711565311945m 0.7725855867577169m -0.2018952331783228m" data-normal="0.375839315552788m 0.1703051477580014m 0.910901183187253m" data-visibility-attribute="visible">
-            <div class="HotspotAnnotation">Green Silk Fabric</div>
-        </button>
-    </model-viewer>
+      <div class="section" id="Oba">
+        <model-viewer src="./models/Oba.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
+          <button class="Hotspot" slot="hotspot-1" data-position="0.11002678703938631m 1.0676661567387282m -0.2723010242890014m" data-normal="-0.45318125607633414m 0.2535471251975114m 0.8545996749619987m" data-visibility-attribute="visible">
+              <div class="HotspotAnnotation">Yellow Solid Cotton</div>
+          </button>
+        </model-viewer>
+        <h2>Oba</h2>
+        <p>A comfortable chair with a pop of color.</p>
+      </div>
+
+      <div class="section" id="Sitzplatz">
+        <model-viewer src="./models/Sitzplatz.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1">
+          <button class="Hotspot" slot="hotspot-1" data-position="-0.2924628883586328m 0.4292900728072091m 0.3438406938416989m" data-normal="0.3705388063879073m -0.04882149702188987m 0.9275329936930365m" data-visibility-attribute="visible">
+              <div class="HotspotAnnotation">Oak Wood</div>
+          </button><button class="Hotspot" slot="hotspot-2" data-position="0.04074711565311945m 0.7725855867577169m -0.2018952331783228m" data-normal="0.375839315552788m 0.1703051477580014m 0.910901183187253m" data-visibility-attribute="visible">
+              <div class="HotspotAnnotation">Green Silk Fabric</div>
+          </button>
+        </model-viewer>
+        <h2>Sitzplatz</h2>
+        <p>A sturdy chair with a timeless design.</p>
+      </div>
+
     </div>
+
   </body>
 </html>
